@@ -1,1 +1,1 @@
-# WordCampKansai-wp-theme-wck2025
+# wp-theme-wck2025
