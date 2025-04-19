@@ -1,0 +1,44 @@
+{
+  "name": "wp-theme-wck2025",
+  "version": "1.0.0",
+  "description": "Theme for WordCamp Kansai 2025",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "css-declaration-sorter": "^7.2.0",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
+    "postcss-import": "^16.1.0",
+    "replace-in-file": "^8.3.0",
+    "sass": "^1.86.3"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "postcss": {
+    "syntax": "postcss",
+    "map": false,
+    "plugins": {
+      "css-declaration-sorter": {
+        "order": "concentric-css"
+      }
+    }
+  },
+  "scripts": {
+    "css": "sass ./scss/:./assets/css/ --no-source-map --style expanded",
+    "autoprefixer": "postcss --use autoprefixer --no-map ./assets/css/*.css -d ./assets/css/",
+    "css-declaration-sorter": "postcss ./assets/css/*.css --replace --config package.json",
+    "replace": "node replace.mjs",
+    "build": "npm run css && npm run autoprefixer && npm run css-declaration-sorter && npm run replace",
+    "watch": "sass ./scss/:./assets/css/ --no-source-map --watch --style expanded"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WordCampKansai/wp-theme-wck2025"
+  },
+  "author": "WordCampKansai",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/WordCampKansai/wp-theme-wck2025/issues"
+  },
+  "homepage": "https://github.com/WordCampKansai/wp-theme-wck2025#readme"
+}
