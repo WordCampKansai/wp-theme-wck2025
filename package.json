@@ -24,12 +24,12 @@
     }
   },
   "scripts": {
-    "css": "sass ./scss/:./assets/css/ --no-source-map --style expanded",
-    "autoprefixer": "postcss --use autoprefixer --no-map ./assets/css/*.css -d ./assets/css/",
-    "css-declaration-sorter": "postcss ./assets/css/*.css --replace --config package.json",
+    "css": "sass ./scss/:./docs/css/ --no-source-map --style expanded",
+    "autoprefixer": "postcss --use autoprefixer --no-map ./docs/css/*.css -d ./docs/css/",
+    "css-declaration-sorter": "postcss ./docs/css/*.css --replace --config package.json",
     "replace": "node replace.mjs",
     "build": "npm run css && npm run autoprefixer && npm run css-declaration-sorter && npm run replace",
-    "watch": "sass ./scss/:./assets/css/ --no-source-map --watch --style expanded"
+    "watch": "sass ./scss/:./docs/css/ --no-source-map --watch --style expanded"
   },
   "repository": {
     "type": "git",
