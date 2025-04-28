@@ -1,3 +1,14 @@
+:root {
+  --wp--preset--font-size--custom-1: 0.75rem;
+  --wp--preset--font-size--custom-2: 0.875rem;
+  --wp--preset--font-size--custom-3: 1rem;
+  --wp--preset--font-size--custom-4: 1.125rem;
+  --wp--preset--font-size--custom-5: 1.25rem;
+  --wp--preset--font-size--custom-6: 1.5rem;
+  --wp--preset--font-size--custom-7: 1.75rem;
+  --wp--preset--font-size--custom-8: 2rem;
+}
+
 body {
   font-family: "Zen Kaku Gothic New";
 }
@@ -12,51 +23,4 @@ blockquote,
 caption,
 figcaption {
   text-wrap: balance;
-}
-
-body {
-  background-image: url("data:image/svg+xml,%3Csvg%20width%3D%22420%22%20height%3D%22284%22%20viewBox%3D%220%200%20420%20284%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20d%3D%22M137.404%20283.42C243.304%20275.65%20267.774%20185.6%20325.164%20176.14C351.374%20171.82%20378.404%20164.18%20398.924%20147.31C422.574%20127.87%20424.904%2090.2103%20410.064%2063.4403C395.434%2037.0503%20367.924%2020.1103%20339.384%2010.2003C338.964%2010.0603%20338.554%209.91028%20338.134%209.77028C309.214%20-0.0497246%20276.934%20-3.69976%20248.364%207.11024C218.584%2018.3802%20196.554%2043.6503%20169.454%2060.3703C152.524%2070.8203%20130.484%2076.9403%20111.464%2074.0103C80.884%2069.3003%2050.664%2080.3703%2029.234%20102.68C-25.706%20159.88%200.393913%20249.97%2077.6539%20276.37C95.0839%20282.33%20115.104%20285.05%20137.394%20283.42H137.404Z%22%20fill%3D%22%23F6B038%22%2F%3E%0A%3C%2Fsvg%3E");
-  background-position: 0 0;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-p {
-  mix-blend-mode: multiply;
-  animation: fluid-anim 20s infinite;
-  margin: 0 auto;
-  border-radius: 61% 39% 16% 84%/57% 72% 28% 43%;
-  background: rgb(147, 161, 176);
-  aspect-ratio: 1;
-  width: 50%;
-}
-
-@keyframes fluid-anim {
-  0% {
-    border-radius: 65% 35% 55% 45%/55% 50% 55% 45%;
-  }
-  12.5% {
-    border-radius: 60% 75% 40% 80%/70% 70% 60% 65%;
-  }
-  25% {
-    border-radius: 55% 95% 65% 90%/75% 65% 85% 70%;
-  }
-  37.5% {
-    border-radius: 60% 40% 50% 45%/60% 40% 60% 40%;
-  }
-  50% {
-    border-radius: 55% 95% 65% 90%/75% 65% 85% 70%;
-  }
-  62.5% {
-    border-radius: 60% 40% 50% 45%/60% 40% 60% 40%;
-  }
-  75% {
-    border-radius: 60% 75% 40% 80%/70% 70% 60% 65%;
-  }
-  87.5% {
-    border-radius: 40% 60% 55% 45%/50% 60% 40% 50%;
-  }
-  100% {
-    border-radius: 65% 35% 55% 45%/55% 50% 55% 45%;
-  }
 }
