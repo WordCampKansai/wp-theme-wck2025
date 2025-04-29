@@ -1,0 +1,30 @@
+@use "sass:math";
+
+.is-display-pc--layout-flex {
+	display: flex;
+}
+
+.is-display-pc--layout-block {
+	display: block;
+}
+
+@media (min-width: 600px) {
+	.is-display-pc--layout-block,
+	.is-display-pc--layout-flex {
+		display: none;
+	}
+}
+
+.is-display-mobile--layout-block,
+.is-display-mobile--layout-flex {
+	display: none;
+}
+
+@media (min-width: 600px) {
+	.is-display-mobile--layout-flex {
+		display: flex;
+	}
+	.is-display-mobile--layout-block {
+		display: block;
+	}
+}
