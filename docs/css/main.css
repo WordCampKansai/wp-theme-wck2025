@@ -1,14 +1,3 @@
-:root {
-  --wp--preset--font-size--custom-1: 0.75rem;
-  --wp--preset--font-size--custom-2: 0.875rem;
-  --wp--preset--font-size--custom-3: 1rem;
-  --wp--preset--font-size--custom-4: 1.125rem;
-  --wp--preset--font-size--custom-5: 1.25rem;
-  --wp--preset--font-size--custom-6: 1.5rem;
-  --wp--preset--font-size--custom-7: 1.75rem;
-  --wp--preset--font-size--custom-8: 2rem;
-}
-
 body {
   font-family: "Zen Kaku Gothic New";
 }
@@ -23,4 +12,32 @@ blockquote,
 caption,
 figcaption {
   text-wrap: balance;
+}
+
+.is-display-pc--layout-flex {
+  display: flex;
+}
+
+.is-display-pc--layout-block {
+  display: block;
+}
+
+@media (min-width: 600px) {
+  .is-display-pc--layout-block,
+  .is-display-pc--layout-flex {
+    display: none;
+  }
+}
+.is-display-mobile--layout-block,
+.is-display-mobile--layout-flex {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .is-display-mobile--layout-flex {
+    display: flex;
+  }
+  .is-display-mobile--layout-block {
+    display: block;
+  }
 }
