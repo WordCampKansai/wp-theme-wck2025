@@ -26,16 +26,15 @@ body {
   font-family: "Zen Kaku Gothic New";
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-blockquote,
-caption,
-figcaption,
-:not(.wp-block-post-title) {
+h1:not(.wp-block-post-title),
+h2:not(.wp-block-post-title),
+h3:not(.wp-block-post-title),
+h4:not(.wp-block-post-title),
+h5:not(.wp-block-post-title),
+h6:not(.wp-block-post-title),
+blockquote:not(.wp-block-post-title),
+caption:not(.wp-block-post-title),
+figcaption:not(.wp-block-post-title) {
   text-wrap: balance;
 }
 
