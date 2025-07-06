@@ -36,6 +36,7 @@ h5,
 h6,
 blockquote,
 caption,
-figcaption {
+figcaption,
+:not(.wp-block-post-title) {
 	text-wrap: balance;
 }
