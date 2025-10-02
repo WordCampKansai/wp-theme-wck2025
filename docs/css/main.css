@@ -464,6 +464,7 @@ textarea[name=tix_refund_request_reason] {
   position: relative;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .sponsor-heading::before {
   position: absolute;
