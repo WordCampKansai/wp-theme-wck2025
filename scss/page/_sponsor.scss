@@ -1,0 +1,70 @@
+.taxonomy-wcb_sponsor_level.wp-block-post-terms {
+	.wp-block-post-terms__separator {
+		padding: 0 3px;
+	}
+	& a[href*="gold"],
+	& a[href*="silver"],
+	& a[href*="bronze"],
+	& a[href*="clean"],
+	& a[href*="meal"],
+	& a[href*="childcare"],
+	& a[href*="in-kind"],
+	& a[href*="stream"] {
+		color: #fff;
+		padding: 0.3rem 0.5rem;
+		border-radius: 5px;
+		font-weight: bold;
+		font-size: 1rem;
+	}
+	& a[href*="gold"] {
+		background: linear-gradient(#f8be49, #cf8e16);
+	}
+	& a[href*="silver"] {
+		background: linear-gradient(#d0d0d0, #9f9f9f);
+	}
+	& a[href*="bronze"] {
+		background: linear-gradient(#c77a31, #894709);
+	}
+	& a[href*="in-kind"] {
+		background: #fff;
+		color: #e96952;
+		border: 1px solid #e96952;
+	}
+	& a[href*="clean"] {
+		background: #9bbebc;
+	}
+	& a[href*="meal"] {
+		background: #e96952;
+	}
+	& a[href*="childcare"] {
+		background: #f6b038;
+	}
+	& a[href*="stream"] {
+		background: #7892b5;
+	}
+}
+
+.sponsor-heading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	&::before {
+		content: "";
+		width: 100%;
+		height: 1px;
+		background-color: #333333;
+		position: absolute;
+		top: 50%;
+		transform: translateY(50%);
+		left: 0;
+		z-index: 1;
+	}
+	& .wp-block-heading {
+		display: inline-block;
+		background: #000;
+		padding: 0 20px;
+		z-index: 10;
+		position: relative;
+	}
+}
