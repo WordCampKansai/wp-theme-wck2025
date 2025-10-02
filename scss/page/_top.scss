@@ -1,0 +1,27 @@
+@use "sass:math";
+
+.top-header {
+	margin-block-start: 220px !important;
+}
+
+.top-header-logo {
+	width: 770px;
+}
+
+.top-header-date {
+	margin: 0;
+	font-size: math.div(40, 16) * 1rem;
+	line-height: math.div(58, 40);
+	font-weight: bold;
+}
+
+.top-header-place {
+	margin: 0;
+	font-size: math.div(32, 16) * 1rem;
+	line-height: math.div(40, 32);
+	font-weight: bold;
+}
+
+.top-header-wapuu {
+	width: 414px;
+}

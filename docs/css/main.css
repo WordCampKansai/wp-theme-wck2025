@@ -38,6 +38,10 @@ figcaption:not(.wp-block-post-title) {
   text-wrap: balance;
 }
 
+a:where([class*=has-custom-]) {
+  font-size: inherit;
+}
+
 .is-display-pc--layout-block,
 .is-display-pc--layout-flex {
   display: none;
@@ -64,4 +68,414 @@ figcaption:not(.wp-block-post-title) {
   .is-display-mobile--layout-flex {
     display: none;
   }
+}
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation-submenu {
+  padding-top: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation-submenu .wp-block-navigation-item__content {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 1.2rem !important;
+}
+
+body.admin-bar #tix {
+  padding-top: 0 !important;
+}
+
+#tix {
+  position: relative;
+  padding-bottom: 100px;
+}
+
+#tix > form {
+  width: 100%;
+  overflow: auto;
+}
+
+#tix > form > p:not(.tix-submit):not(.tix-description) {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#tix > form > p.tix-submit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.tix-notice,
+.tix-error,
+.tix-info {
+  padding: 1rem !important;
+}
+
+.tix-ticket-form,
+.tix_tickets_table {
+  border: 1px solid #b5bdbc;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tix_tickets_table {
+  min-width: 640px;
+}
+
+.tix_tickets_table.tix-tickets-list {
+  table-layout: fixed;
+}
+
+@media (max-width: 599.9999px) {
+  .tix_tickets_table.tix-tickets-list {
+    table-layout: auto;
+  }
+}
+.tix_tickets_table.tix-tickets-list thead th.tix-column-price,
+.tix_tickets_table.tix-tickets-list thead th.tix-column-remaining,
+.tix_tickets_table.tix-tickets-list thead th.tix-column-quantity {
+  width: 10%;
+}
+
+.tix-ticket-form thead th,
+.tix_tickets_table thead th {
+  border-right: 1px solid #b5bdbc;
+  background: #ebebeb;
+  padding: 1rem;
+  font-weight: bold !important;
+  font-size: 1.2rem;
+}
+
+.tix-ticket-form tr:not(:last-child),
+.tix_tickets_table tr:not(:last-child) {
+  border-bottom: 1px solid #b5bdbc;
+}
+
+.tix-ticket-form thead th,
+.tix-ticket-form tbody td,
+.tix_tickets_table tbody th,
+.tix_tickets_table tbody td {
+  border-right: 1px solid #b5bdbc;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.tix_tickets_table tbody th {
+  text-align: left;
+}
+
+.tix_tickets_table tbody th[colspan] {
+  background-color: #333333;
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.tix-ticket-form tbody td a,
+.tix_tickets_table tbody td a {
+  font-size: 100% !important;
+}
+
+.tix_tickets_table.tix-tickets-list tbody td {
+  text-align: right;
+}
+
+.tix_tickets_table tbody tr.tix-row-health-advisory td {
+  text-align: left;
+}
+
+.tix_tickets_table select {
+  padding: 0 5px;
+  color: var(--wp--preset--color--custom-wck-2025-black);
+  font-weight: normal;
+  font-size: 1.2rem;
+  font-family: var(--wp--preset--font-family--zen-kaku-gothic-new);
+}
+
+#tix > form input[type=submit] {
+  border-width: 0;
+  border-color: var(--wp--preset--color--contrast);
+  border-radius: 0.33rem;
+  background-color: var(--wp--preset--color--custom-wck-2025-red);
+  padding-top: 0.6rem;
+  padding-right: 1rem;
+  padding-bottom: 0.6rem;
+  padding-left: 1rem;
+  color: var(--wp--preset--color--base-2);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  font-family: var(--wp--preset--font-family--zen-kaku-gothic-new);
+  letter-spacing: inherit;
+  text-decoration: none;
+  text-transform: inherit;
+}
+
+textarea[name=tix_refund_request_reason] {
+  box-sizing: border-box;
+  border-color: #b5bdbc;
+  border-radius: 0.33rem;
+  padding-top: 0.6rem;
+  padding-right: 1rem;
+  padding-bottom: 0.6rem;
+  padding-left: 1rem;
+  width: 100% !important;
+  font-style: normal;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  font-family: var(--wp--preset--font-family--zen-kaku-gothic-new);
+  letter-spacing: inherit;
+  text-decoration: none;
+  text-transform: inherit;
+}
+
+#tix > form input[type=text],
+#tix > form input[type=email],
+#tix > form input[type=url] {
+  box-sizing: border-box;
+  padding: 5px;
+  width: 100%;
+  color: var(--wp--preset--color--custom-wck-2025-black);
+  font-size: var(--wp--preset--font-size--custom-3);
+  font-family: var(--wp--preset--font-family--zen-kaku-gothic-new);
+}
+
+.tix_tickets_table.tix-attendee-form {
+  margin-block-start: 1rem;
+}
+
+.tix-ticket-form td.tix-left,
+.tix-private-form td.tix-left,
+.tix-attendee-form td.tix-left,
+.tix-receipt-form td.tix-left {
+  background: #f9f9f9;
+}
+
+@media (max-width: 599.9999px) {
+  .tix_tickets_table.tix-attendee-form,
+  .tix_tickets_table.tix-order-summary {
+    width: 100%;
+    min-width: unset;
+    overflow: unset;
+  }
+  .tix_tickets_table.tix-attendee-form tr {
+    display: flex;
+    flex-direction: column;
+  }
+  .tix_tickets_table.tix-attendee-form [colspan] {
+    border-right: 0 none !important;
+  }
+  .tix-ticket-form td.tix-left,
+  .tix-private-form td.tix-left,
+  .tix-attendee-form td.tix-left,
+  .tix-receipt-form td.tix-left {
+    box-sizing: border-box;
+    border-right: 0 none !important;
+    background: #f9f9f9;
+    width: 100% !important;
+  }
+  .tix-ticket-form td.tix-right,
+  .tix-private-form td.tix-right,
+  .tix-attendee-form td.tix-right,
+  .tix-receipt-form td.tix-right {
+    box-sizing: border-box;
+    border-right: 0 none !important;
+    width: 100% !important;
+  }
+}
+#tix-attendees .tix-attendee-list[class*=tix-columns-] {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem 2rem;
+  padding: 0;
+}
+
+@media (max-width: 599.9999px) {
+  #tix-attendees .tix-attendee-list[class*=tix-columns-] {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+#tix-attendees .tix-attendee-list[class*=tix-columns-] li {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+#tix-attendees ul.tix-attendee-list[class*=tix-columns-] li .avatar {
+  width: 96px;
+  height: 96px;
+}
+
+#tix-attendees ul.tix-attendee-list[class*=tix-columns-] li .tix-field {
+  margin-left: 0;
+  font-size: 1rem;
+}
+
+#tix-attendees ul.tix-attendee-list[class*=tix-columns-] li .tix-field.tix-attendee-url {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.top-header {
+  margin-block-start: 220px !important;
+}
+
+.top-header-logo {
+  width: 770px;
+}
+
+.top-header-date {
+  margin: 0;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.45;
+}
+
+.top-header-place {
+  margin: 0;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+.top-header-wapuu {
+  width: 414px;
+}
+
+@media (max-width: 599.9999px) {
+  .footer-news-letter-container {
+    justify-content: flex-start !important;
+  }
+}
+.wp-block-wordcamp-session-speakers,
+.wp-block-wordcamp-session-speakers .wp-block-wordcamp-session-speakers__name a,
+.wp-block-wordcamp-session-date-heading,
+.wp-block-wordcamp-session-date time {
+  font-weight: bold;
+  font-size: 1.3rem !important;
+}
+
+.wp-block-wordcamp-session-speakers__byline {
+  margin-right: 0 !important;
+}
+
+.wp-block-wordcamp-session-speakers__byline::after,
+.wp-block-wordcamp-session-date-heading::after {
+  margin-right: 0.3em;
+  content: ":";
+  font-weight: bold;
+  font-size: 1.3rem !important;
+}
+
+@supports (display: grid) {
+  @media screen and (min-width: 550px) {
+    body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__session.is-spanning-some-tracks h4.wordcamp-schedule__session-title {
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+  }
+}
+@supports (display: grid) {
+  @media screen and (min-width: 550px) {
+    body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__session.is-spanning-some-tracks p {
+      margin: 0;
+    }
+  }
+}
+.wordcamp-schedule__day {
+  border: 1px solid #e0e5e9;
+}
+
+@media (max-width: 599.9999px) {
+  .wordcamp-schedule__day {
+    border: 0 none;
+  }
+}
+@supports (display: grid) {
+  @media screen and (min-width: 550px) {
+    body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__column-header {
+      margin: 0;
+      box-shadow: 0 0 1px 1px #e0e5e9;
+      padding: 10px;
+      font-size: 1rem;
+    }
+  }
+}
+.taxonomy-wcb_sponsor_level.wp-block-post-terms .wp-block-post-terms__separator {
+  padding: 0 3px;
+}
+.taxonomy-wcb_sponsor_level.wp-block-post-terms a[href*=gold], .taxonomy-wcb_sponsor_level.wp-block-post-terms a[href*=silver], .taxonomy-wcb_sponsor_level.wp-block-post-terms a[href*=bronze], .taxonomy-wcb_sponsor_level.wp-block-post-terms a[href*=clean], .taxonomy-wcb_sponsor_level.wp-block-post-terms a[href*=meal], .taxonomy-wcb_sponsor_level.wp-block-post-terms a[href*=childcare], .taxonomy-wcb_sponsor_level.wp-block-post-terms a[href*=in-kind], .taxonomy-wcb_sponsor_level.wp-block-post-terms a[href*=stream] {
+  border-radius: 5px;
+  padding: 0.3rem 0.5rem;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.taxonomy-wcb_sponsor_level.wp-block-post-terms a[href*=gold] {
+  background: linear-gradient(#f8be49, #cf8e16);
+}
+.taxonomy-wcb_sponsor_level.wp-block-post-terms a[href*=silver] {
+  background: linear-gradient(#d0d0d0, #9f9f9f);
+}
+.taxonomy-wcb_sponsor_level.wp-block-post-terms a[href*=bronze] {
+  background: linear-gradient(#c77a31, #894709);
+}
+.taxonomy-wcb_sponsor_level.wp-block-post-terms a[href*=in-kind] {
+  border: 1px solid #e96952;
+  background: #fff;
+  color: #e96952;
+}
+.taxonomy-wcb_sponsor_level.wp-block-post-terms a[href*=clean] {
+  background: #9bbebc;
+}
+.taxonomy-wcb_sponsor_level.wp-block-post-terms a[href*=meal] {
+  background: #e96952;
+}
+.taxonomy-wcb_sponsor_level.wp-block-post-terms a[href*=childcare] {
+  background: #f6b038;
+}
+.taxonomy-wcb_sponsor_level.wp-block-post-terms a[href*=stream] {
+  background: #7892b5;
+}
+
+.sponsor-heading {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.sponsor-heading::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(50%);
+  z-index: 1;
+  background-color: #333333;
+  width: 100%;
+  height: 1px;
+  content: "";
+}
+.sponsor-heading .wp-block-heading {
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+  background: #000;
+  padding: 0 20px;
 }

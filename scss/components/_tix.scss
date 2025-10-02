@@ -1,0 +1,258 @@
+body.admin-bar #tix {
+	padding-top: 0 !important;
+}
+
+#tix {
+	position: relative;
+	padding-bottom: 100px;
+}
+
+#tix > form {
+	width: 100%;
+	overflow: auto;
+}
+
+#tix > form > p:not(.tix-submit):not(.tix-description) {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#tix > form > p.tix-submit {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.tix-notice,
+.tix-error,
+.tix-info {
+	padding: 1rem !important;
+}
+
+.tix-ticket-form,
+.tix_tickets_table {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #b5bdbc;
+}
+
+.tix_tickets_table {
+	min-width: 640px;
+}
+
+.tix_tickets_table.tix-tickets-list {
+	table-layout: fixed;
+}
+
+@media (max-width: 599.9999px) {
+	.tix_tickets_table.tix-tickets-list {
+		table-layout: auto;
+	}
+}
+
+.tix_tickets_table.tix-tickets-list thead th.tix-column-price,
+.tix_tickets_table.tix-tickets-list thead th.tix-column-remaining,
+.tix_tickets_table.tix-tickets-list thead th.tix-column-quantity {
+	width: 10%;
+}
+
+.tix-ticket-form thead th,
+.tix_tickets_table thead th {
+	background: #ebebeb;
+	padding: 1rem;
+	font-size: 1.2rem;
+	font-weight: bold !important;
+	border-right: 1px solid #b5bdbc;
+}
+
+.tix-ticket-form tr:not(:last-child),
+.tix_tickets_table tr:not(:last-child) {
+	border-bottom: 1px solid #b5bdbc;
+}
+
+.tix-ticket-form thead th,
+.tix-ticket-form tbody td,
+.tix_tickets_table tbody th,
+.tix_tickets_table tbody td {
+	padding: 1rem;
+	font-size: 1.2rem;
+	border-right: 1px solid #b5bdbc;
+}
+
+.tix_tickets_table tbody th {
+	text-align: left;
+}
+
+.tix_tickets_table tbody th[colspan] {
+	color: #fff;
+	background-color: #333333;
+	font-size: 1.4rem;
+}
+
+.tix-ticket-form tbody td a,
+.tix_tickets_table tbody td a {
+	font-size: 100% !important;
+}
+
+.tix_tickets_table.tix-tickets-list tbody td {
+	text-align: right;
+}
+
+.tix_tickets_table tbody tr.tix-row-health-advisory td {
+	text-align: left;
+}
+
+.tix_tickets_table select {
+	font-size: 1.2rem;
+	font-weight: normal;
+	padding: 0 5px;
+	color: var(--wp--preset--color--custom-wck-2025-black);
+	font-family: var(--wp--preset--font-family--zen-kaku-gothic-new);
+}
+
+#tix > form input[type="submit"] {
+	background-color: var(--wp--preset--color--custom-wck-2025-red);
+	border-radius: 0.33rem;
+	border-color: var(--wp--preset--color--contrast);
+	border-width: 0;
+	color: var(--wp--preset--color--base-2);
+	font-family: var(--wp--preset--font-family--zen-kaku-gothic-new);
+	font-size: 1.2rem;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: inherit;
+	line-height: 1.8;
+	padding-top: 0.6rem;
+	padding-right: 1rem;
+	padding-bottom: 0.6rem;
+	padding-left: 1rem;
+	text-decoration: none;
+	text-transform: inherit;
+}
+
+textarea[name="tix_refund_request_reason"] {
+	width: 100% !important;
+	box-sizing: border-box;
+	border-radius: 0.33rem;
+	border-color: #b5bdbc;
+	font-family: var(--wp--preset--font-family--zen-kaku-gothic-new);
+	font-size: 1.2rem;
+	font-style: normal;
+	letter-spacing: inherit;
+	line-height: 1.8;
+	padding-top: 0.6rem;
+	padding-right: 1rem;
+	padding-bottom: 0.6rem;
+	padding-left: 1rem;
+	text-decoration: none;
+	text-transform: inherit;
+}
+
+#tix > form input[type="text"],
+#tix > form input[type="email"],
+#tix > form input[type="url"] {
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+	color: var(--wp--preset--color--custom-wck-2025-black);
+	font-family: var(--wp--preset--font-family--zen-kaku-gothic-new);
+	font-size: var(--wp--preset--font-size--custom-3);
+}
+
+.tix_tickets_table.tix-attendee-form {
+	margin-block-start: 1rem;
+}
+
+.tix-ticket-form td.tix-left,
+.tix-private-form td.tix-left,
+.tix-attendee-form td.tix-left,
+.tix-receipt-form td.tix-left {
+	background: #f9f9f9;
+}
+
+@media (max-width: 599.9999px) {
+	.tix_tickets_table.tix-attendee-form,
+	.tix_tickets_table.tix-order-summary {
+		width: 100%;
+		min-width: unset;
+		overflow: unset;
+	}
+
+	.tix_tickets_table.tix-attendee-form tr {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.tix_tickets_table.tix-attendee-form [colspan] {
+		border-right: 0 none !important;
+	}
+
+	.tix-ticket-form td.tix-left,
+	.tix-private-form td.tix-left,
+	.tix-attendee-form td.tix-left,
+	.tix-receipt-form td.tix-left {
+		width: 100% !important;
+		border-right: 0 none !important;
+		box-sizing: border-box;
+		background: #f9f9f9;
+	}
+
+	.tix-ticket-form td.tix-right,
+	.tix-private-form td.tix-right,
+	.tix-attendee-form td.tix-right,
+	.tix-receipt-form td.tix-right {
+		width: 100% !important;
+		border-right: 0 none !important;
+		box-sizing: border-box;
+	}
+}
+
+#tix-attendees .tix-attendee-list[class*="tix-columns-"] {
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 4rem 2rem;
+}
+
+@media (max-width: 599.9999px) {
+	#tix-attendees .tix-attendee-list[class*="tix-columns-"] {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+#tix-attendees .tix-attendee-list[class*="tix-columns-"] li {
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 5px;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#tix-attendees ul.tix-attendee-list[class*="tix-columns-"] li .avatar {
+	width: 96px;
+	height: 96px;
+}
+
+#tix-attendees ul.tix-attendee-list[class*="tix-columns-"] li .tix-field {
+	margin-left: 0;
+	font-size: 1rem;
+}
+
+#tix-attendees ul.tix-attendee-list[class*="tix-columns-"] li .tix-field.tix-attendee-url {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 100%;
+	text-align: center;
+}

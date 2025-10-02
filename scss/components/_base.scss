@@ -41,3 +41,7 @@ figcaption {
 		text-wrap: balance;
 	}
 }
+
+a:where([class*="has-custom-"]) {
+	font-size: inherit;
+}

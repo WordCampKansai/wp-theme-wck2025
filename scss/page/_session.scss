@@ -1,0 +1,42 @@
+.wp-block-wordcamp-session-speakers,
+.wp-block-wordcamp-session-speakers .wp-block-wordcamp-session-speakers__name a,
+.wp-block-wordcamp-session-date-heading,
+.wp-block-wordcamp-session-date time {
+	font-size: 1.3rem !important;
+	font-weight: bold;
+}
+
+.wp-block-wordcamp-session-speakers__byline {
+	margin-right: 0 !important;
+}
+
+.wp-block-wordcamp-session-speakers__byline::after,
+.wp-block-wordcamp-session-date-heading::after {
+	content: ":";
+	margin-right: 0.3em;
+	font-size: 1.3rem !important;
+	font-weight: bold;
+}
+
+@supports (display: grid) {
+	@media screen and (min-width: 550px) {
+		body:not(.block-editor-page)
+			.wordcamp-schedule:not(.is-style-single-column-layout)
+			.wordcamp-schedule__session.is-spanning-some-tracks
+			h4.wordcamp-schedule__session-title {
+			justify-content: center;
+			margin-bottom: 1rem;
+		}
+	}
+}
+
+@supports (display: grid) {
+	@media screen and (min-width: 550px) {
+		body:not(.block-editor-page)
+			.wordcamp-schedule:not(.is-style-single-column-layout)
+			.wordcamp-schedule__session.is-spanning-some-tracks
+			p {
+			margin: 0;
+		}
+	}
+}

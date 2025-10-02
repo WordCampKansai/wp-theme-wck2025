@@ -1,4 +1,6 @@
 @use "./components/base";
 @use "./components/display";
+@use "./components/navigation";
+@use "./components/tix";
 
-@use "./page/teaser";
+@use "./page/" as *;

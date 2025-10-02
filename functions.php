@@ -11,7 +11,7 @@
 add_action( 'wp_enqueue_scripts', function () {
 	wp_enqueue_style(
 		'wckansai2025-style',
-		get_stylesheet_directory_uri() . '/assets/css/main.css',
+		get_stylesheet_directory_uri() . '/docs/css/main.css',
 		array( 'twentytwentyfive-style' )
 	);
 } );

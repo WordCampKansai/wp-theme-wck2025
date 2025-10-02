@@ -1,0 +1,22 @@
+.wordcamp-schedule__day {
+	border: 1px solid #e0e5e9;
+}
+
+@media (max-width: 599.9999px) {
+	.wordcamp-schedule__day {
+		border: 0 none;
+	}
+}
+
+@supports (display: grid) {
+	@media screen and (min-width: 550px) {
+		body:not(.block-editor-page)
+			.wordcamp-schedule:not(.is-style-single-column-layout)
+			.wordcamp-schedule__column-header {
+			box-shadow: 0 0 1px 1px #e0e5e9;
+			margin: 0;
+			padding: 10px;
+			font-size: 1rem;
+		}
+	}
+}
