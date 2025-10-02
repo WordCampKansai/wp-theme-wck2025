@@ -480,6 +480,6 @@ textarea[name=tix_refund_request_reason] {
   display: inline-block;
   position: relative;
   z-index: 10;
-  background: #000;
+  background: #FFF;
   padding: 0 20px;
 }
