@@ -333,6 +333,10 @@ textarea[name=tix_refund_request_reason] {
   white-space: nowrap;
 }
 
+.top-cover {
+  background: url("https://kansai.wordcamp.org/2025/files/2025/10/top-page-cover-scaled.png") top center/100% auto no-repeat;
+}
+
 .top-header {
   margin-block-start: 220px !important;
 }
