@@ -338,7 +338,7 @@ textarea[name=tix_refund_request_reason] {
 }
 
 .top-header {
-  margin-block-start: 220px !important;
+  padding-top: 220px;
 }
 
 .top-header-logo {
