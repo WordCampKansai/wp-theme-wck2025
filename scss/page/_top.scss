@@ -10,6 +10,15 @@
 
 .top-header-logo {
 	width: 770px;
+	max-width: 100%;
+}
+
+@media (max-width: 599.9999px) {
+	.top-header-logo {
+		width: 64.8vw;
+		margin-right: auto;
+		margin-left: auto;
+	}
 }
 
 .top-header-date {
