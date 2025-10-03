@@ -349,6 +349,13 @@ textarea[name=tix_refund_request_reason] {
 @media (max-width: 599.9999px) {
   .top-header {
     flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+  }
+}
+@media (max-width: 599.9999px) {
+  .top-header-logo-wrap {
+    gap: 10px;
   }
 }
 .top-header-logo {
@@ -361,6 +368,16 @@ textarea[name=tix_refund_request_reason] {
     margin-right: auto;
     margin-left: auto;
     width: 64.8vw;
+  }
+}
+@media (max-width: 599.9999px) {
+  .top-header-text-wrap {
+    gap: 5px;
+  }
+}
+@media (max-width: 599.9999px) {
+  .top-header-text-box {
+    gap: 5px;
   }
 }
 .top-header-date {
