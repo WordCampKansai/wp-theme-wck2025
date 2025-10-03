@@ -95,3 +95,13 @@
 		margin-left: auto !important;
 	}
 }
+
+.top-main-about {
+	padding: 60px 120px;
+}
+
+@media (max-width: 599.9999px) {
+	.top-main-about {
+		padding: 24px 16px;
+	}
+}

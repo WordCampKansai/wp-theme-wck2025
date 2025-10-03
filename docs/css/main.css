@@ -418,6 +418,15 @@ textarea[name=tix_refund_request_reason] {
     width: 41.0666666667vw;
   }
 }
+.top-main-about {
+  padding: 60px 120px;
+}
+
+@media (max-width: 599.9999px) {
+  .top-main-about {
+    padding: 24px 16px;
+  }
+}
 @media (max-width: 599.9999px) {
   .footer-news-letter-container {
     justify-content: flex-start !important;
