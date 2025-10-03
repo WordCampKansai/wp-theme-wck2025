@@ -337,10 +337,20 @@ textarea[name=tix_refund_request_reason] {
   background: url("https://kansai.wordcamp.org/2025/files/2025/10/top-page-cover-scaled.png") top center/100% auto no-repeat;
 }
 
+@media (max-width: 599.9999px) {
+  .top-cover {
+    background: url("https://kansai.wordcamp.org/2025/files/2025/10/sp-header-cover.png") top center/100% auto no-repeat;
+  }
+}
 .top-header {
   padding-top: 220px;
 }
 
+@media (max-width: 599.9999px) {
+  .top-header {
+    flex-direction: column;
+  }
+}
 .top-header-logo {
   width: 770px;
   max-width: 100%;
@@ -371,6 +381,13 @@ textarea[name=tix_refund_request_reason] {
   width: 414px;
 }
 
+@media (max-width: 599.9999px) {
+  .top-header-wapuu {
+    margin-right: auto;
+    margin-left: auto;
+    width: 41.0666666667vw;
+  }
+}
 @media (max-width: 599.9999px) {
   .footer-news-letter-container {
     justify-content: flex-start !important;
