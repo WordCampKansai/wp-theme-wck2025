@@ -338,7 +338,7 @@ textarea[name=tix_refund_request_reason] {
 }
 
 .top-cover {
-  background: url("https://kansai.wordcamp.org/2025/files/2025/10/top-page-cover-scaled.png") top center/100% auto no-repeat;
+  background: url("https://kansai.wordcamp.org/2025/files/2025/10/top-page-cover-scaled.png") top center/100% auto no-repeat, url("https://kansai.wordcamp.org/2025/files/2025/10/top-page-cover-end-scaled.png") bottom center/100% auto no-repeat;
 }
 
 @media (max-width: 599.9999px) {
@@ -534,6 +534,7 @@ textarea[name=tix_refund_request_reason] {
   position: relative;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px !important;
   width: 100%;
 }
 .sponsor-heading::before {
@@ -551,6 +552,6 @@ textarea[name=tix_refund_request_reason] {
   display: inline-block;
   position: relative;
   z-index: 10;
-  background: #FFF;
+  background: #fff;
   padding: 0 20px;
 }
