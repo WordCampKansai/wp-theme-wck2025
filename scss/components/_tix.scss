@@ -215,6 +215,10 @@ textarea[name="tix_refund_request_reason"] {
 	}
 }
 
+#tix-attendees {
+	width: 100%;
+}
+
 #tix-attendees .tix-attendee-list[class*="tix-columns-"] {
 	padding: 0;
 	display: grid;

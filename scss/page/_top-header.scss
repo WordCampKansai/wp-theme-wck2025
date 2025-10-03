@@ -1,0 +1,85 @@
+@use "sass:math";
+
+.top-header {
+	padding-top: 220px;
+	margin-bottom: 370px;
+}
+
+@media (max-width: 599.9999px) {
+	.top-header {
+		padding-top: 90px;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 599.9999px) {
+	.top-header-logo-wrap {
+		gap: 30px;
+	}
+}
+
+.top-header-logo {
+	width: 770px;
+	max-width: 100%;
+}
+
+@media (max-width: 599.9999px) {
+	.top-header-logo {
+		width: 64.8vw;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media (max-width: 599.9999px) {
+	.top-header-text-wrap {
+		gap: 20px;
+	}
+}
+
+@media (max-width: 599.9999px) {
+	.top-header-text-box {
+		gap: 10px;
+	}
+}
+
+.top-header-date {
+	margin: 0;
+	font-size: math.div(40, 16) * 1rem;
+	line-height: math.div(58, 40);
+	font-weight: bold;
+}
+
+@media (max-width: 599.9999px) {
+	.top-header-date {
+		font-size: math.div(20, 16) * 1rem;
+		line-height: math.div(20, 36);
+	}
+}
+
+.top-header-place {
+	margin: 0;
+	font-size: math.div(32, 16) * 1rem;
+	line-height: math.div(40, 32);
+	font-weight: bold;
+}
+
+@media (max-width: 599.9999px) {
+	.top-header-place {
+		font-size: math.div(14, 16) * 1rem;
+	}
+}
+
+.top-header-wapuu {
+	width: 414px;
+}
+
+@media (max-width: 599.9999px) {
+	.top-header-wapuu {
+		width: math.div(154, 375) * 100vw;
+		margin-right: auto !important;
+		margin-left: auto !important;
+	}
+}
