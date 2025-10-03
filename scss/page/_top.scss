@@ -14,6 +14,7 @@
 
 .top-header {
 	padding-top: 220px;
+	margin-bottom: 370px;
 }
 
 @media (max-width: 599.9999px) {
@@ -21,12 +22,13 @@
 		padding-top: 90px;
 		flex-direction: column;
 		align-items: center;
+		margin-bottom: 30px;
 	}
 }
 
 @media (max-width: 599.9999px) {
 	.top-header-logo-wrap {
-		gap: 10px;
+		gap: 30px;
 	}
 }
 
@@ -45,13 +47,13 @@
 
 @media (max-width: 599.9999px) {
 	.top-header-text-wrap {
-		gap: 5px;
+		gap: 20px;
 	}
 }
 
 @media (max-width: 599.9999px) {
 	.top-header-text-box {
-		gap: 5px;
+		gap: 10px;
 	}
 }
 
