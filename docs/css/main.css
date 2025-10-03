@@ -370,6 +370,12 @@ textarea[name=tix_refund_request_reason] {
   line-height: 1.45;
 }
 
+@media (max-width: 599.9999px) {
+  .top-header-date {
+    font-size: 1.25rem;
+    line-height: 0.5555555556;
+  }
+}
 .top-header-place {
   margin: 0;
   font-weight: bold;
@@ -377,14 +383,19 @@ textarea[name=tix_refund_request_reason] {
   line-height: 1.25;
 }
 
+@media (max-width: 599.9999px) {
+  .top-header-place {
+    font-size: 0.875rem;
+  }
+}
 .top-header-wapuu {
   width: 414px;
 }
 
 @media (max-width: 599.9999px) {
   .top-header-wapuu {
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: auto !important;
+    margin-left: auto !important;
     width: 41.0666666667vw;
   }
 }

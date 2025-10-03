@@ -1,12 +1,14 @@
 @use "sass:math";
 
 .top-cover {
-	background: url("https://kansai.wordcamp.org/2025/files/2025/10/top-page-cover-scaled.png") top center / 100% auto no-repeat;
+	background: url("https://kansai.wordcamp.org/2025/files/2025/10/top-page-cover-scaled.png") top center / 100% auto
+		no-repeat;
 }
 
 @media (max-width: 599.9999px) {
 	.top-cover {
-		background: url("https://kansai.wordcamp.org/2025/files/2025/10/sp-header-cover.png") top center / 100% auto no-repeat;
+		background: url("https://kansai.wordcamp.org/2025/files/2025/10/sp-header-cover.png") top center / 100% auto
+			no-repeat;
 	}
 }
 
@@ -40,11 +42,24 @@
 	font-weight: bold;
 }
 
+@media (max-width: 599.9999px) {
+	.top-header-date {
+		font-size: math.div(20, 16) * 1rem;
+		line-height: math.div(20, 36);
+	}
+}
+
 .top-header-place {
 	margin: 0;
 	font-size: math.div(32, 16) * 1rem;
 	line-height: math.div(40, 32);
 	font-weight: bold;
+}
+
+@media (max-width: 599.9999px) {
+	.top-header-place {
+		font-size: math.div(14, 16) * 1rem;
+	}
 }
 
 .top-header-wapuu {
@@ -54,7 +69,7 @@
 @media (max-width: 599.9999px) {
 	.top-header-wapuu {
 		width: math.div(154, 375) * 100vw;
-		margin-right: auto;
-		margin-left: auto;
+		margin-right: auto !important;
+		margin-left: auto !important;
 	}
 }
