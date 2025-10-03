@@ -343,8 +343,16 @@ textarea[name=tix_refund_request_reason] {
 
 .top-header-logo {
   width: 770px;
+  max-width: 100%;
 }
 
+@media (max-width: 599.9999px) {
+  .top-header-logo {
+    margin-right: auto;
+    margin-left: auto;
+    width: 64.8vw;
+  }
+}
 .top-header-date {
   margin: 0;
   font-weight: bold;
