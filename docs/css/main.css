@@ -573,3 +573,12 @@ textarea[name=tix_refund_request_reason] {
     background: url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/sp-page-cover.png") top center/100% auto no-repeat;
   }
 }
+.page-title {
+  padding-top: 160px;
+}
+
+@media (max-width: 599.9999px) {
+  .page-title {
+    padding-top: 44px;
+  }
+}
