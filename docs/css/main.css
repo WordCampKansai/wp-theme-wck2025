@@ -340,7 +340,7 @@ textarea[name=tix_refund_request_reason] {
 @media (max-width: 599.9999px) {
   .global-header {
     justify-content: flex-end !important;
-    background-color: unset;
+    background-color: unset !important;
     padding-top: 20px;
     padding-bottom: 20px;
   }
