@@ -583,11 +583,18 @@ textarea[name=tix_refund_request_reason] {
 
 .page-title {
   margin-block-start: 0 !important;
-  padding-top: 160px;
 }
 
 @media (max-width: 599.9999px) {
   .page-title {
     padding-top: 44px;
   }
+}
+.page-logo {
+  margin-block-start: 0 !important;
+  padding-top: 160px;
+}
+
+.page-date {
+  margin-block-start: 0 !important;
 }
