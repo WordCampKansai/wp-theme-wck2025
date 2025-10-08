@@ -345,14 +345,6 @@ textarea[name=tix_refund_request_reason] {
     padding-bottom: 20px;
   }
 }
-.global-header > header.wp-block-template-part {
-  margin: 0 calc(50% - 50vw);
-  margin-right: 0 !important;
-  margin-left: 0 !important;
-  width: 100vw;
-  max-width: 100% !important;
-}
-
 .top-cover {
   background: url("https://kansai.wordcamp.org/2025/files/2025/10/top-page-cover-scaled.png") top center/100% auto no-repeat, url("https://kansai.wordcamp.org/2025/files/2025/10/top-page-cover-end-scaled.png") bottom center/100% auto no-repeat;
 }
@@ -581,6 +573,14 @@ textarea[name=tix_refund_request_reason] {
     background: url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/sp-page-cover.png") top center/100% auto no-repeat;
   }
 }
+.page-cover > header.wp-block-template-part {
+  margin: 0 calc(50% - 50vw);
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  width: 100vw;
+  max-width: 100% !important;
+}
+
 .page-title {
   margin-block-start: 0 !important;
   padding-top: 160px;

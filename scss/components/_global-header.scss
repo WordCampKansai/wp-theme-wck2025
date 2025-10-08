@@ -6,13 +6,3 @@
 		padding-bottom: 20px;
 	}
 }
-
-.global-header {
-	& > header.wp-block-template-part {
-		max-width: 100% !important;
-		margin-right: 0 !important;
-		margin-left: 0 !important;
-		margin: 0 calc(50% - 50vw);
-		width: 100vw;
-	}
-}
