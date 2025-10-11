@@ -42,7 +42,8 @@
 }
 
 .carousel-inner > .carousel-item {
-	width: 100vw;
+	width: 100vw !important;
+	display: flex !important;
 	flex-direction: row !important;
 }
 

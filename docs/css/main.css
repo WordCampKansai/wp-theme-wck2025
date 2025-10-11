@@ -381,8 +381,9 @@ textarea[name=tix_refund_request_reason] {
 }
 
 .carousel-inner > .carousel-item {
+  display: flex !important;
   flex-direction: row !important;
-  width: 100vw;
+  width: 100vw !important;
 }
 
 .carousel-inner > .carousel-item > .wp-block-post {
