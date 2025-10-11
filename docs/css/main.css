@@ -379,6 +379,8 @@ textarea[name=tix_refund_request_reason] {
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: nowrap !important;
+  margin: 0 !important;
+  padding: 0 !important;
   width: 100vw !important;
 }
 
