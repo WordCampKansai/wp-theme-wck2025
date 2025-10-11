@@ -23,7 +23,6 @@
 	display: flex !important;
 	flex-direction: row !important;
 	flex-wrap: nowrap !important;
-	min-width: auto !important;
 	animation: infinity-scroll-left 10s linear infinite;
 	padding: 0 !important;
 	margin: 0 !important;
@@ -33,7 +32,6 @@
 }
 
 .carousel-inner > .carousel-item {
-	width: auto !important;
 	display: flex !important;
 	flex-direction: row !important;
 	flex-wrap: nowrap !important;
