@@ -27,17 +27,26 @@
 	width: 25%;
 }
 
+:root {
+	--scroll-gap: 30px;
+}
+
 @keyframes infinity-scroll-left {
 	from {
 		transform: translateX(0);
 	}
 	to {
-		transform: translateX(-100%);
+		transform: translateX(-100vw);
+		transform: translateX(calc(-50% - var(--scroll-gap) / 2));
 	}
 }
 
-.carousel > .wp-block-post {
+.carousel-wrap > .carousel {
+	width: max-content;
 	animation: infinity-scroll-left 10s infinite linear 0.5s both;
+	&:hover {
+		animation-play-state: paused;
+	}
 }
 
 .carousel > .wp-block-post > .wp-block-post-title {
