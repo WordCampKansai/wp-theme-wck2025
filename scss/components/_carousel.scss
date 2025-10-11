@@ -1,15 +1,3 @@
-.carousel-item > .wp-block-post {
-	&.post-1599,
-	&.post-1736,
-	&.post-1727 {
-		display: none;
-		opacity: 0;
-		width: 0;
-		height: 0;
-		visibility: hidden;
-	}
-}
-
 @keyframes infinity-scroll-left {
 	from {
 		transform: translateX(0);
@@ -55,6 +43,15 @@
 	flex-direction: column !important;
 	flex: none !important;
 	width: 25%;
+	&.post-1599,
+	&.post-1736,
+	&.post-1727 {
+		display: none;
+		opacity: 0;
+		width: 0;
+		height: 0;
+		visibility: hidden;
+	}
 }
 
 .carousel-item > .wp-block-post > .wp-block-post-title {
@@ -64,3 +61,4 @@
 .carousel-item > .wp-block-post > .wp-block-wordcamp-session-speakers {
 	font-size: 1rem !important;
 }
+
