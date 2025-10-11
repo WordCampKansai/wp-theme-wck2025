@@ -372,7 +372,7 @@ textarea[name=tix_refund_request_reason] {
   animation: infinity-scroll-left 10s linear infinite;
   margin: 0 !important;
   padding: 0 !important;
-  width: 200vw;
+  min-width: 200vw !important;
 }
 
 .carousel-inner > .carousel-item {

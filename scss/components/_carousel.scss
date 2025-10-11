@@ -23,7 +23,7 @@
 	display: flex !important;
 	flex-direction: row !important;
 	flex-wrap: nowrap !important;
-	width: 200vw;
+	min-width: 200vw !important;
 	animation: infinity-scroll-left 10s linear infinite;
 	padding: 0 !important;
 	margin: 0 !important;
