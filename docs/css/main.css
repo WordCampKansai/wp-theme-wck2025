@@ -355,6 +355,11 @@ textarea[name=tix_refund_request_reason] {
 
 .carousel-wrap {
   display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
   overflow-x: auto !important;
   scroll-behavior: smooth !important;
   scroll-snap-type: x mandatory !important;
@@ -362,6 +367,8 @@ textarea[name=tix_refund_request_reason] {
 
 .carousel-wrap > .carousel {
   display: flex !important;
+  animation: infinity-scroll-left 10s linear infinite;
+  width: 100vw;
 }
 
 .carousel > .wp-block-post {
@@ -382,12 +389,6 @@ textarea[name=tix_refund_request_reason] {
     transform: translateX(calc(-50% - 15px));
   }
 }
-.carousel-wrap > .carousel {
-  animation: infinity-scroll-left 10s 10s linear infinite;
-  width: -moz-max-content;
-  width: max-content;
-}
-
 .carousel > .wp-block-post > .wp-block-post-title {
   margin-block-start: 0;
 }

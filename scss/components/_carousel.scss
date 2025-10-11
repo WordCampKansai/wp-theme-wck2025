@@ -12,13 +12,23 @@
 
 .carousel-wrap {
 	display: flex !important;
+	flex-direction: row !important;
 	overflow-x: auto !important;
+	flex-wrap: nowrap !important;
 	scroll-snap-type: x mandatory !important;
 	scroll-behavior: smooth !important;
+	width: 100% !important;
+	padding: 0 !important;
+	margin: 0 !important;
 }
 
-.carousel-wrap > .carousel{
+.carousel-wrap > .carousel {
 	display: flex !important;
+	width: 100vw;
+	animation: infinity-scroll-left 10s linear infinite;
+	// &:hover {
+	// 	animation-play-state: paused;
+	// }
 }
 
 .carousel > .wp-block-post {
@@ -38,14 +48,6 @@
 	to {
 		transform: translateX(calc(-50% - 30px / 2));
 	}
-}
-
-.carousel-wrap > .carousel {
-	width: max-content;
-	animation: infinity-scroll-left 10s 10s linear infinite;
-	// &:hover {
-	// 	animation-play-state: paused;
-	// }
 }
 
 .carousel > .wp-block-post > .wp-block-post-title {
