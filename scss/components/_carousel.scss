@@ -22,8 +22,11 @@
 .carousel-wrap > .carousel-inner {
 	display: flex !important;
 	flex-direction: row !important;
+	flex-wrap: nowrap !important;
 	width: 200vw;
 	animation: infinity-scroll-left 10s linear infinite;
+	padding: 0 !important;
+	margin: 0 !important;
 	// &:hover {
 	// 	animation-play-state: paused;
 	// }
@@ -33,6 +36,7 @@
 	width: 100vw !important;
 	display: flex !important;
 	flex-direction: row !important;
+	flex-wrap: nowrap !important;
 }
 
 .carousel-inner > .carousel-item > .wp-block-post {
