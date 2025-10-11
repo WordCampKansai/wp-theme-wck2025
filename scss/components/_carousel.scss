@@ -1,4 +1,4 @@
-.carousel > .wp-block-post {
+.carousel-item > .wp-block-post {
 	&.post-1599,
 	&.post-1736,
 	&.post-1727 {
@@ -34,11 +34,16 @@
 .carousel-wrap > .carousel-inner {
 	display: flex !important;
 	flex-direction: row !important;
-	width: 100vw;
+	width: 200vw;
 	animation: infinity-scroll-left 10s linear infinite;
 	// &:hover {
 	// 	animation-play-state: paused;
 	// }
+}
+
+.carousel-inner > .carousel-item {
+	width: 100vw;
+	flex-direction: row !important;
 }
 
 .carousel-inner > .carousel-item > .wp-block-post {
