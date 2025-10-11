@@ -407,6 +407,7 @@ textarea[name=tix_refund_request_reason] {
 .carousel-item .wp-block-post .wp-block-post-title {
   margin-block-start: 0;
   margin-block-end: 0;
+  text-align: center;
 }
 
 .carousel-item .wp-block-post .wp-block-wordcamp-session-speakers {
