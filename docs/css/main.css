@@ -388,8 +388,8 @@ textarea[name=tix_refund_request_reason] {
   flex-direction: column !important;
   justify-content: start !important;
   align-items: center !important;
-  width: 25%;
-  min-width: 25%;
+  width: 25vw;
+  min-width: 25vw;
   scroll-snap-align: start !important;
 }
 .carousel-inner > .carousel-item > .wp-block-post.post-1599, .carousel-inner > .carousel-item > .wp-block-post.post-1736, .carousel-inner > .carousel-item > .wp-block-post.post-1727 {
