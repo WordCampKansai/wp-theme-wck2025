@@ -372,7 +372,7 @@ textarea[name=tix_refund_request_reason] {
   animation: infinity-scroll-left 10s linear infinite;
   margin: 0 !important;
   padding: 0 !important;
-  min-width: 200vw !important;
+  min-width: auto !important;
 }
 
 .carousel-inner > .carousel-item {
@@ -381,7 +381,7 @@ textarea[name=tix_refund_request_reason] {
   flex-wrap: nowrap !important;
   margin: 0 !important;
   padding: 0 !important;
-  width: 100vw !important;
+  width: auto !important;
 }
 
 .carousel-inner > .carousel-item > .wp-block-post {
