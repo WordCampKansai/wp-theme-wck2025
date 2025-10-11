@@ -353,7 +353,7 @@ textarea[name=tix_refund_request_reason] {
   height: 0;
 }
 
-.carousel {
+.carousel-wrap {
   display: flex !important;
   overflow-x: auto !important;
   scroll-behavior: smooth !important;
