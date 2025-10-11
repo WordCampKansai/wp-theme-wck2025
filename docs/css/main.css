@@ -350,7 +350,7 @@ textarea[name=tix_refund_request_reason] {
     transform: translateX(0);
   }
   to {
-    transform: translateX(-650vw);
+    transform: translateX(-7800px);
   }
 }
 .carousel-wrap {
@@ -392,8 +392,8 @@ textarea[name=tix_refund_request_reason] {
   flex-direction: column !important;
   justify-content: start !important;
   align-items: center !important;
-  width: 25vw;
-  min-width: 25vw;
+  width: 300px;
+  min-width: 300px;
 }
 .carousel-inner > .carousel-item > .wp-block-post.post-1599, .carousel-inner > .carousel-item > .wp-block-post.post-1736, .carousel-inner > .carousel-item > .wp-block-post.post-1727 {
   display: none !important;

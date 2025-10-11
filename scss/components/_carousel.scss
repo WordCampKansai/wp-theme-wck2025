@@ -3,7 +3,7 @@
 		transform: translateX(0);
 	}
 	to {
-		transform: translateX(calc(-25vw * 26));
+		transform: translateX(calc(-300px * 26));
 	}
 }
 
@@ -49,8 +49,8 @@
 	justify-content: start !important;
 	flex-direction: column !important;
 	flex: none !important;
-	width: 25vw;
-	min-width: 25vw;
+	width: 300px;
+	min-width: 300px;
 	&.post-1599,
 	&.post-1736,
 	&.post-1727 {
