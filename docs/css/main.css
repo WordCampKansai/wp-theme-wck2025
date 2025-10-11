@@ -390,7 +390,7 @@ textarea[name=tix_refund_request_reason] {
   display: flex !important;
   flex: none !important;
   flex-direction: column !important;
-  justify-content: start !important;
+  justify-content: space-between !important;
   align-items: center !important;
   width: 300px;
   min-width: 300px;
@@ -403,11 +403,11 @@ textarea[name=tix_refund_request_reason] {
   height: 0 !important;
 }
 
-.carousel-item .wp-block-post > .wp-block-post-title {
+.carousel-item .wp-block-post .wp-block-post-title {
   margin-block-start: 0;
 }
 
-.carousel-item .wp-block-post > .wp-block-wordcamp-session-speakers {
+.carousel-item .wp-block-post .wp-block-wordcamp-session-speakers {
   font-size: 1rem !important;
 }
 
