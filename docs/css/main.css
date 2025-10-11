@@ -345,7 +345,7 @@ textarea[name=tix_refund_request_reason] {
     padding-bottom: 20px;
   }
 }
-@keyframes infinity-scroll-left {
+@keyframes infinityScroll {
   from {
     transform: translateX(0);
   }
@@ -369,7 +369,8 @@ textarea[name=tix_refund_request_reason] {
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: nowrap !important;
-  animation: infinity-scroll-left 10s linear infinite;
+  gap: 0 !important;
+  animation: infinityScroll 10s linear infinite;
   margin: 0 !important;
   padding: 0 !important;
 }
@@ -378,9 +379,11 @@ textarea[name=tix_refund_request_reason] {
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: nowrap !important;
+  justify-content: start !important;
   gap: 0 !important;
   margin: 0 !important;
   padding: 0 !important;
+  scroll-snap-align: start !important;
 }
 
 .carousel-inner > .carousel-item > .wp-block-post {
@@ -391,7 +394,6 @@ textarea[name=tix_refund_request_reason] {
   align-items: center !important;
   width: 25vw;
   min-width: 25vw;
-  scroll-snap-align: start !important;
 }
 .carousel-inner > .carousel-item > .wp-block-post.post-1599, .carousel-inner > .carousel-item > .wp-block-post.post-1736, .carousel-inner > .carousel-item > .wp-block-post.post-1727 {
   display: none !important;
@@ -401,11 +403,11 @@ textarea[name=tix_refund_request_reason] {
   height: 0 !important;
 }
 
-.carousel-item > .wp-block-post > .wp-block-post-title {
+.carousel-item .wp-block-post > .wp-block-post-title {
   margin-block-start: 0;
 }
 
-.carousel-item > .wp-block-post > .wp-block-wordcamp-session-speakers {
+.carousel-item .wp-block-post > .wp-block-wordcamp-session-speakers {
   font-size: 1rem !important;
 }
 

@@ -1,4 +1,4 @@
-@keyframes infinity-scroll-left {
+@keyframes infinityScroll {
 	from {
 		transform: translateX(0);
 	}
@@ -23,9 +23,10 @@
 	display: flex !important;
 	flex-direction: row !important;
 	flex-wrap: nowrap !important;
-	animation: infinity-scroll-left 10s linear infinite;
+	animation: infinityScroll 10s linear infinite;
 	padding: 0 !important;
 	margin: 0 !important;
+	gap: 0 !important;
 	// &:hover {
 	// 	animation-play-state: paused;
 	// }
@@ -34,14 +35,15 @@
 .carousel-inner > .carousel-item {
 	display: flex !important;
 	flex-direction: row !important;
+	justify-content: start !important;
 	flex-wrap: nowrap !important;
+	scroll-snap-align: start !important;
 	padding: 0 !important;
 	margin: 0 !important;
 	gap: 0 !important;
 }
 
 .carousel-inner > .carousel-item > .wp-block-post {
-	scroll-snap-align: start !important;
 	display: flex !important;
 	align-items: center !important;
 	justify-content: start !important;
@@ -60,11 +62,11 @@
 	}
 }
 
-.carousel-item > .wp-block-post > .wp-block-post-title {
+.carousel-item .wp-block-post > .wp-block-post-title {
 	margin-block-start: 0;
 }
 
-.carousel-item > .wp-block-post > .wp-block-wordcamp-session-speakers {
+.carousel-item .wp-block-post > .wp-block-wordcamp-session-speakers {
 	font-size: 1rem !important;
 }
 
