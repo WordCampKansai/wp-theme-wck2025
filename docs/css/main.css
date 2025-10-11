@@ -375,11 +375,12 @@ textarea[name=tix_refund_request_reason] {
 
 .carousel-wrap > .carousel-inner {
   display: flex !important;
+  flex-direction: row !important;
   animation: infinity-scroll-left 10s linear infinite;
   width: 100vw;
 }
 
-.carousel-inner > .carousel > .wp-block-post {
+.carousel-inner > .carousel-item > .wp-block-post {
   display: flex !important;
   flex: none !important;
   flex-direction: column !important;
@@ -389,11 +390,11 @@ textarea[name=tix_refund_request_reason] {
   scroll-snap-align: start !important;
 }
 
-.carousel > .wp-block-post > .wp-block-post-title {
+.carousel-item > .wp-block-post > .wp-block-post-title {
   margin-block-start: 0;
 }
 
-.carousel > .wp-block-post > .wp-block-wordcamp-session-speakers {
+.carousel-item > .wp-block-post > .wp-block-wordcamp-session-speakers {
   font-size: 1rem !important;
 }
 

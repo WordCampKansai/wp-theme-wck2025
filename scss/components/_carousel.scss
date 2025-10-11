@@ -33,6 +33,7 @@
 
 .carousel-wrap > .carousel-inner {
 	display: flex !important;
+	flex-direction: row !important;
 	width: 100vw;
 	animation: infinity-scroll-left 10s linear infinite;
 	// &:hover {
@@ -40,7 +41,7 @@
 	// }
 }
 
-.carousel-inner > .carousel > .wp-block-post {
+.carousel-inner > .carousel-item > .wp-block-post {
 	scroll-snap-align: start !important;
 	display: flex !important;
 	align-items: center !important;
@@ -50,10 +51,10 @@
 	width: 25%;
 }
 
-.carousel > .wp-block-post > .wp-block-post-title {
+.carousel-item > .wp-block-post > .wp-block-post-title {
 	margin-block-start: 0;
 }
 
-.carousel > .wp-block-post > .wp-block-wordcamp-session-speakers {
+.carousel-item > .wp-block-post > .wp-block-wordcamp-session-speakers {
 	font-size: 1rem !important;
 }
