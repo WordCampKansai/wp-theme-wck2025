@@ -350,7 +350,7 @@ textarea[name=tix_refund_request_reason] {
     transform: translateX(0);
   }
   to {
-    transform: translateX(-100vw);
+    transform: translateX(-100%);
   }
 }
 .carousel-wrap {
