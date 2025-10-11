@@ -27,17 +27,12 @@
 	width: 25%;
 }
 
-:root {
-	--scroll-gap: 30px;
-}
-
 @keyframes infinity-scroll-left {
 	from {
 		transform: translateX(0);
 	}
 	to {
-		transform: translateX(-100vw);
-		transform: translateX(calc(-50% - var(--scroll-gap) / 2));
+		transform: translateX(calc(-50% - 30px / 2));
 	}
 }
 
