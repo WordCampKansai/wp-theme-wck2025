@@ -10,10 +10,10 @@
 .carousel-wrap {
 	display: flex !important;
 	flex-direction: row !important;
-	overflow-x: auto !important;
 	flex-wrap: nowrap !important;
-	scroll-snap-type: x mandatory !important;
-	scroll-behavior: smooth !important;
+	// overflow-x: auto !important;
+	// scroll-snap-type: x mandatory !important;
+	// scroll-behavior: smooth !important;
 	width: 100% !important;
 	padding: 0 !important;
 	margin: 0 !important;
@@ -69,4 +69,3 @@
 .carousel-item .wp-block-post > .wp-block-wordcamp-session-speakers {
 	font-size: 1rem !important;
 }
-
