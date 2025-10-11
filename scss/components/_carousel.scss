@@ -48,7 +48,7 @@
 	justify-content: start !important;
 	flex-direction: column !important;
 	flex: none !important;
-	width: 25%;
+	min-width: 25vw;
 	&.post-1599,
 	&.post-1736,
 	&.post-1727 {
