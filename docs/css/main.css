@@ -353,6 +353,14 @@ textarea[name=tix_refund_request_reason] {
   height: 0;
 }
 
+@keyframes infinity-scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-50% - 15px));
+  }
+}
 .carousel-wrap {
   display: flex !important;
   flex-direction: row !important;
@@ -365,13 +373,13 @@ textarea[name=tix_refund_request_reason] {
   scroll-snap-type: x mandatory !important;
 }
 
-.carousel-wrap > .carousel {
+.carousel-wrap > .carousel-inner {
   display: flex !important;
   animation: infinity-scroll-left 10s linear infinite;
   width: 100vw;
 }
 
-.carousel > .wp-block-post {
+.carousel-inner > .carousel > .wp-block-post {
   display: flex !important;
   flex: none !important;
   flex-direction: column !important;
@@ -381,14 +389,6 @@ textarea[name=tix_refund_request_reason] {
   scroll-snap-align: start !important;
 }
 
-@keyframes infinity-scroll-left {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(calc(-50% - 15px));
-  }
-}
 .carousel > .wp-block-post > .wp-block-post-title {
   margin-block-start: 0;
 }
