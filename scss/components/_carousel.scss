@@ -37,5 +37,13 @@
 }
 
 .carousel > .wp-block-post {
-	animation: infinity-scroll-left 80s infinite linear 0.5s both;
+	animation: infinity-scroll-left 10s infinite linear 0.5s both;
+}
+
+.carousel > .wp-block-post > .wp-block-post-title {
+	margin-block-start: 0;
+}
+
+.carousel > .wp-block-post > .wp-block-wordcamp-session-speakers {
+	font-size: 1rem !important;
 }
