@@ -19,7 +19,6 @@
 
 .carousel-wrap > .carousel{
 	display: flex !important;
-	width: 100vw !important;
 }
 
 .carousel > .wp-block-post {
@@ -43,7 +42,7 @@
 
 .carousel-wrap > .carousel {
 	width: max-content;
-	animation: infinity-scroll-left 10s infinite linear 0.5s both;
+	animation: infinity-scroll-left 10s 10s linear infinite;
 	// &:hover {
 	// 	animation-play-state: paused;
 	// }
