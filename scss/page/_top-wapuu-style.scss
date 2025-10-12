@@ -54,8 +54,8 @@
 		height: 480px;
 		display: inline-block;
 		position: absolute;
-    top: 20px;
-    left: 120px;
+		top: 20px;
+		left: 120px;
 		background: url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-wapuu-style-3.png")
 			top center / 100% auto no-repeat;
 	}
@@ -64,7 +64,7 @@
 @media (max-width: 599.9999px) {
 	.top-wapuu-style-3 {
 		position: unset;
-		&::after {
+		&::before {
 			content: none;
 		}
 	}

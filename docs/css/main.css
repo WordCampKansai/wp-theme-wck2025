@@ -584,7 +584,7 @@ textarea[name=tix_refund_request_reason] {
   .top-wapuu-style-3 {
     position: unset;
   }
-  .top-wapuu-style-3::after {
+  .top-wapuu-style-3::before {
     content: none;
   }
 }
