@@ -13,6 +13,15 @@
 	}
 }
 
+@media (max-width: 599.9999px) {
+	.top-wapuu-style-1 {
+		position: unset;
+		&::after {
+			content: none;
+		}
+	}
+}
+
 .top-wapuu-style-2 {
 	position: relative;
 	&::after {
@@ -25,6 +34,15 @@
 		right: -260px;
 		background: url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-wapuu-style-2.png")
 			top center / 100% auto no-repeat;
+	}
+}
+
+@media (max-width: 599.9999px) {
+	.top-wapuu-style-2 {
+		position: unset;
+		&::after {
+			content: none;
+		}
 	}
 }
 
@@ -43,6 +61,15 @@
 	}
 }
 
+@media (max-width: 599.9999px) {
+	.top-wapuu-style-3 {
+		position: unset;
+		&::after {
+			content: none;
+		}
+	}
+}
+
 .top-wapuu-style-4 {
 	position: relative;
 	&::after {
@@ -55,5 +82,14 @@
 		right: -360px;
 		background: url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-wapuu-style-4.png")
 			top center / 100% auto no-repeat;
+	}
+}
+
+@media (max-width: 599.9999px) {
+	.top-wapuu-style-4 {
+		position: unset;
+		&::after {
+			content: none;
+		}
 	}
 }

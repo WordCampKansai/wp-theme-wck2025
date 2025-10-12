@@ -525,6 +525,14 @@ textarea[name=tix_refund_request_reason] {
   content: "";
 }
 
+@media (max-width: 599.9999px) {
+  .top-wapuu-style-1 {
+    position: unset;
+  }
+  .top-wapuu-style-1::after {
+    content: none;
+  }
+}
 .top-wapuu-style-2 {
   position: relative;
 }
@@ -539,6 +547,14 @@ textarea[name=tix_refund_request_reason] {
   content: "";
 }
 
+@media (max-width: 599.9999px) {
+  .top-wapuu-style-2 {
+    position: unset;
+  }
+  .top-wapuu-style-2::after {
+    content: none;
+  }
+}
 .top-wapuu-style-3 {
   position: relative;
 }
@@ -553,6 +569,14 @@ textarea[name=tix_refund_request_reason] {
   content: "";
 }
 
+@media (max-width: 599.9999px) {
+  .top-wapuu-style-3 {
+    position: unset;
+  }
+  .top-wapuu-style-3::after {
+    content: none;
+  }
+}
 .top-wapuu-style-4 {
   position: relative;
 }
@@ -567,6 +591,14 @@ textarea[name=tix_refund_request_reason] {
   content: "";
 }
 
+@media (max-width: 599.9999px) {
+  .top-wapuu-style-4 {
+    position: unset;
+  }
+  .top-wapuu-style-4::after {
+    content: none;
+  }
+}
 @media (max-width: 599.9999px) {
   .footer-news-letter-container {
     justify-content: flex-start !important;
