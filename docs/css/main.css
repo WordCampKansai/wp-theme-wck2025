@@ -415,7 +415,7 @@ textarea[name=tix_refund_request_reason] {
 }
 
 .top-cover {
-  background: #F7EDDC url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-page-cover-start.webp") top center/100% auto no-repeat, url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-page-cover-end.webp") bottom center/100% auto no-repeat;
+  background: url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-page-cover-start.webp") top center/100% auto no-repeat, url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-page-cover-end.webp") bottom center/100% auto no-repeat, #F7EDDC;
 }
 
 @media (max-width: 599.9999px) {
