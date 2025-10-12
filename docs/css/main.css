@@ -510,6 +510,20 @@ textarea[name=tix_refund_request_reason] {
     padding: 24px 16px;
   }
 }
+.top-wapuu-style-1 {
+  position: relative;
+}
+.top-wapuu-style-1::after {
+  display: inline-block;
+  position: absolute;
+  bottom: 68px;
+  left: 67px;
+  background: url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-wapuu-style-1.png") top center/100% auto no-repeat;
+  width: 340px;
+  height: 410px;
+  content: "";
+}
+
 @media (max-width: 599.9999px) {
   .footer-news-letter-container {
     justify-content: flex-start !important;
