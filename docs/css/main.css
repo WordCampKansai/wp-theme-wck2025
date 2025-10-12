@@ -541,7 +541,7 @@ textarea[name=tix_refund_request_reason] {
 .top-wapuu-style-3 {
   position: relative;
 }
-.top-wapuu-style-3::after {
+.top-wapuu-style-3::before {
   display: inline-block;
   position: absolute;
   top: 90%;
