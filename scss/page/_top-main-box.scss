@@ -1,15 +1,14 @@
 @use "sass:math";
 
-.top-main-about {
+.top-main-box {
 	padding: 60px 120px;
 	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 599.9999px) {
-	.top-main-about {
+	.top-main-box {
 		padding: 24px 16px;
 		border-radius: 8px;
 	}
 }
-
-// .top-main-about-heading-wrap {}

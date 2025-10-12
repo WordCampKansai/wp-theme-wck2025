@@ -499,13 +499,14 @@ textarea[name=tix_refund_request_reason] {
     width: 41.0666666667vw;
   }
 }
-.top-main-about {
+.top-main-box {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   padding: 60px 120px;
 }
 
 @media (max-width: 599.9999px) {
-  .top-main-about {
+  .top-main-box {
     border-radius: 8px;
     padding: 24px 16px;
   }
@@ -545,7 +546,7 @@ textarea[name=tix_refund_request_reason] {
   display: inline-block;
   position: absolute;
   top: 90%;
-  left: -330px;
+  left: -400px;
   background: url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-wapuu-style-3.png") top center/100% auto no-repeat;
   width: 410px;
   height: 480px;
@@ -559,7 +560,7 @@ textarea[name=tix_refund_request_reason] {
   display: inline-block;
   position: absolute;
   top: 98%;
-  right: 120px;
+  right: -360px;
   background: url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-wapuu-style-4.png") top center/100% auto no-repeat;
   width: 340px;
   height: 380px;
