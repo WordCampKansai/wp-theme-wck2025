@@ -1,0 +1,12 @@
+.top-after-style-1 {
+	position: relative;
+	&::after {
+		content: '';
+		width: 340px;
+		height: 410px;
+		display: inline-block;
+		position: absolute;
+		bottom: 68px;
+		left: 67px;
+	}
+}
