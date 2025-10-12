@@ -544,11 +544,25 @@ textarea[name=tix_refund_request_reason] {
 .top-wapuu-style-3::after {
   display: inline-block;
   position: absolute;
-  top: 100%;
-  left: -200px;
+  top: 90%;
+  left: -330px;
   background: url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-wapuu-style-3.png") top center/100% auto no-repeat;
   width: 410px;
   height: 480px;
+  content: "";
+}
+
+.top-wapuu-style-4 {
+  position: relative;
+}
+.top-wapuu-style-4::after {
+  display: inline-block;
+  position: absolute;
+  top: 98%;
+  right: 120px;
+  background: url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-wapuu-style-4.png") top center/100% auto no-repeat;
+  width: 340px;
+  height: 380px;
   content: "";
 }
 
