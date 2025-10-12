@@ -27,3 +27,18 @@
 			top center / 100% auto no-repeat;
 	}
 }
+
+.top-wapuu-style-3 {
+	position: relative;
+	&::after {
+		content: "";
+		width: 340px;
+		height: 380px;
+		display: inline-block;
+		position: absolute;
+		top: 98%;
+		right: 120px;
+		background: url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-wapuu-style-3.png")
+			top center / 100% auto no-repeat;
+	}
+}
