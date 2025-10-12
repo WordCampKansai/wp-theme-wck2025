@@ -6,9 +6,24 @@
 		height: 410px;
 		display: inline-block;
 		position: absolute;
-		top: 100%;
-		left: -280px;
+		top: calc(100% + 70px);
+		left: -350px;
 		background: url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-wapuu-style-1.png")
+			top center / 100% auto no-repeat;
+	}
+}
+
+.top-wapuu-style-2 {
+	position: relative;
+	&::after {
+		content: "";
+		width: 260px;
+		height: 310px;
+		display: inline-block;
+		position: absolute;
+		top: calc(100% + 70px);
+		right: 120px;
+		background: url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-wapuu-style-2.png")
 			top center / 100% auto no-repeat;
 	}
 }
