@@ -1,9 +1,9 @@
 @use "sass:math";
 
 .top-cover {
-	background: url("https://kansai.wordcamp.org/2025/files/2025/10/top-page-cover-scaled.png")
+	background: #F7EDDC url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-page-cover-start.webp")
 			top center / 100% auto no-repeat,
-		url("https://kansai.wordcamp.org/2025/files/2025/10/top-page-cover-end-scaled.png")
+		url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-page-cover-end.webp")
 			bottom center / 100% auto no-repeat;
 }
 
@@ -12,4 +12,9 @@
 		background: url("https://kansai.wordcamp.org/2025/files/2025/10/sp-header-cover.png")
 			top center / 100% auto no-repeat;
 	}
+}
+
+.top-cover-middle {
+	background: url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-page-cover-middle.webp")
+			top center / 100% auto no-repeat;
 }
