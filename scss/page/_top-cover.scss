@@ -4,7 +4,8 @@
 	background: url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-page-cover-start.webp")
 			top center / 100% auto no-repeat,
 		url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-page-cover-end.webp")
-			bottom center / 100% auto no-repeat, #F7EDDC;
+			bottom center / 100% auto no-repeat,
+		#f7eddc;
 }
 
 @media (max-width: 599.9999px) {
@@ -15,6 +16,15 @@
 }
 
 .top-cover-middle {
-	background: #FFF url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-page-cover-middle.webp")
-			top center / 100% auto no-repeat;
+	padding-top: 390px;
+	background: #fff
+		url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-page-cover-middle.webp")
+		top center / 100% auto no-repeat;
+}
+
+@media (max-width: 599.9999px) {
+	.top-cover-middle {
+		padding-top: 100px;
+		background: #fff;
+	}
 }

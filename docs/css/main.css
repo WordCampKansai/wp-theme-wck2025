@@ -415,7 +415,7 @@ textarea[name=tix_refund_request_reason] {
 }
 
 .top-cover {
-  background: url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-page-cover-start.webp") top center/100% auto no-repeat, url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-page-cover-end.webp") bottom center/100% auto no-repeat, #F7EDDC;
+  background: url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-page-cover-start.webp") top center/100% auto no-repeat, url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-page-cover-end.webp") bottom center/100% auto no-repeat, #f7eddc;
 }
 
 @media (max-width: 599.9999px) {
@@ -424,9 +424,16 @@ textarea[name=tix_refund_request_reason] {
   }
 }
 .top-cover-middle {
-  background: #FFF url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-page-cover-middle.webp") top center/100% auto no-repeat;
+  background: #fff url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-page-cover-middle.webp") top center/100% auto no-repeat;
+  padding-top: 390px;
 }
 
+@media (max-width: 599.9999px) {
+  .top-cover-middle {
+    background: #fff;
+    padding-top: 100px;
+  }
+}
 .top-header {
   margin-bottom: 100px;
   padding-top: 220px;
@@ -565,8 +572,8 @@ textarea[name=tix_refund_request_reason] {
 .top-wapuu-style-3::before {
   display: inline-block;
   position: absolute;
-  top: 90%;
-  left: -400px;
+  top: 20px;
+  left: 120px;
   background: url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-wapuu-style-3.png") top center/100% auto no-repeat;
   width: 410px;
   height: 480px;
@@ -587,8 +594,8 @@ textarea[name=tix_refund_request_reason] {
 .top-wapuu-style-4::after {
   display: inline-block;
   position: absolute;
-  top: 98%;
-  right: -360px;
+  top: 0;
+  right: 120px;
   background: url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-wapuu-style-4.png") top center/100% auto no-repeat;
   width: 340px;
   height: 380px;
