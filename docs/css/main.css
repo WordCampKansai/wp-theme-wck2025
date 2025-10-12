@@ -530,8 +530,8 @@ textarea[name=tix_refund_request_reason] {
 .top-wapuu-style-2::after {
   display: inline-block;
   position: absolute;
-  top: calc(100% + 70px);
-  right: 120px;
+  top: 100%;
+  right: -260px;
   background: url("https://raw.githubusercontent.com/WordCampKansai/wp-theme-wck2025/main/docs/images/top-wapuu-style-2.png") top center/100% auto no-repeat;
   width: 260px;
   height: 310px;
